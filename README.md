@@ -1,16 +1,24 @@
-# React + Vite
+# MinhaAppReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em React para visualização e organização dos dados do Censo Escolar 2025 da Paraíba.
 
-Currently, two official plugins are available:
+O sistema apresenta as 30 Instituições de Ensino (IEs) com maior número de matrículas no estado da Paraíba, utilizando dados tratados em formato JSON.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Listagem das 30 IEs com mais matrículas da Paraíba
+- Ranking das 3 instituições com maior quantidade de matrículas
+- Exibição em Cards utilizando Bootstrap
+- Consumo de dados em formato JSON
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Projeto Python
+
+A aplicação responsável pela extração e tratamento dos dados do Censo Escolar está disponível no repositório abaixo:
+
+[🔗 Acessar CensoEsoclarDataApp](https://github.com/M4rky07/CensoEsoclarDataApp)
+
+
